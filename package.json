@@ -1,13 +1,13 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "Online portfolio built in React",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --inline --mode development --open"
   },
-  "author": "Steve Watson",
-  "license": "ISC",
+  "repository": "https://github.com/designerofthing/portfolio.git",
+  "author": "designerofthing <designerofthings@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
@@ -18,12 +18,12 @@
     "@babel/plugin-proposal-class-properties": "^7.8.3",
     "@babel/preset-env": "^7.9.5",
     "@babel/preset-react": "^7.9.4",
-    "babel-loader": "^8.0.2",
-    "css-loader": "^1.0.0",
-    "style-loader": "^0.23.0",
+    "babel-loader": "8.0.2",
+    "css-loader": "1.0.0",
+    "style-loader": "0.23.0",
     "uglifyjs-webpack-plugin": "^2.2.0",
-    "webpack": "^4.19.1",
-    "webpack-cli": "^3.1.1",
-    "webpack-dev-server": "^3.1.8"
+    "webpack": "4.19.1",
+    "webpack-cli": "3.1.1",
+    "webpack-dev-server": "3.1.8"
   }
 }
