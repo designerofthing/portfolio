@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --inline --mode development --open"
+    "start": "webpack-dev-server --inline --mode development --open",
+    "cy:open": "yarn start & cypress open"
   },
   "repository": "https://github.com/designerofthing/portfolio.git",
   "author": "designerofthing <designerofthings@gmail.com>",
