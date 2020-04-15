@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hello = () => {
     return <div className="ui main container">
-    <h1 id="hello">Howdy, I can write what ever I want here</h1>
+    <h1 id="hello">Hello World</h1>
     </div>;
 };
 
