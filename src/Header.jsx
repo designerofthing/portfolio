@@ -6,7 +6,7 @@ const Header = () => {
     return(
         <nav className="ui fixed inverted menu">
             <div className="ui container">
-                <Link id="header" className="header item" to="/" activestyle={{color: "#dfddc7" }}>
+                <Link id="header" className="header item" to="/" activeStyle={{color: "#dfddc7" }}>
                     My Portfolio
                 </Link>
                 

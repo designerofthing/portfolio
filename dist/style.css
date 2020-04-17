@@ -53,13 +53,13 @@ body{
 
 .content{
     text-align: center;
-
 }
-    
-
-
-.ui.fixed.inverted.menu {
-    background-color: #6393a4;
   
-    
+.ui.fixed.inverted.menu {
+    background-color: #6393a4;  
+}
+
+.ui.inverted.menu .item {
+    color: #dfddc7;  
+    font-weight: bolder;
 }
