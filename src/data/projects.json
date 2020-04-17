@@ -2,19 +2,27 @@
   {
     "id": 1,
     "name": "My First Website",
-    "image": "http://www.4president.us/websites/2000/2000w/gore2000home.gif",
-    "description": "This was my first project. The guy lost, but won the popular vote!"
+    "image": "./src/images/firstwebsite.png",
+    "description": "This was my first website made with HTML and CSS",
+    "link": "https://designerofthing.github.io/",
+    "linkText": "Website"
   },
   {
     "id": 2,
-    "name": "UI Design",
-    "image": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
-    "description": "Designing user interfaces is fun. I want to learn more about that..."
+    "name": "BMI Calculator",
+    "image": "./src/images/body-mass-index.jpg",
+    "description": "Simple BMI Calculator page with functionality in Javascript",
+    "link": "https://designerofthing.github.io/bmi_calculator/",
+    "linkText": "Website"
   },
+  
   {
     "id": 3,
-    "name": "Mobile UX",
-    "image": "https://images.unsplash.com/photo-1534237886190-ced735ca4b73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
-    "description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding."
+    "name": "Address Book",
+    "image": "https://addressbookchallenge75.netlify.app/assets/images/Contactstudiologo.png",
+    "description": "An address book to manage contacts with functionality in Javascript.",
+    "link": "https://addressbookchallenge75.netlify.com/",
+    "linkText": "Website"
+  
   }
 ]
