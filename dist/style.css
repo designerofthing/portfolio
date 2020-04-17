@@ -1,12 +1,12 @@
 footer {
-    position:absolute;
+    position:fixed;
     bottom: 0;
     width: 100%;
     height: 60px;
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #dfddc7;
-    color: #f58b54;
+    color: #5b97ac;
     margin-top: 0;
     margin-bottom: 0;
     text-align: center;
@@ -59,7 +59,7 @@ body{
 
 
 .ui.fixed.inverted.menu {
-    background-color: #a34a28;
+    background-color: #6393a4;
   
     
 }

@@ -34,10 +34,10 @@ class Projects extends Component {
             <div className='ui main container'>
                 <div className="ui stackable two column grid">
                     <div class="column">
-                        <UndrawDashboard primaryColor='#a34a28' height='200px' />
+                        <UndrawDashboard primaryColor='#5b97ac' height='200px' />
                     </div>
                     <div class="column">
-                        <h1 className='ui header'>My Projects</h1>
+                        <h1 id='projects-header' className='ui header'>My Projects</h1>
                         <p>
                         As a junior web developer, I have begun the journey to master dark the art of coding.  Below is a small selection of my projects, but please visit my Github page for projects in Ruby, Javascript and React. 
                         </p><a href="https://github.com/designerofthing">github.com/designerofthing</a>
