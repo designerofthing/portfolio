@@ -23,6 +23,10 @@ describe('User can navigate the app', () => {
         it('does not display logo', () => {
             cy.get('#logo').should('not.exist');
         });
+
+        it('does not display CV header', () => {
+            cy.get('#cv-header').should('not.exist');
+        });
     });
 
     describe('to My Projects tab and it',() => {
@@ -45,9 +49,39 @@ describe('User can navigate the app', () => {
         it('does not display logo', () => {
             cy.get('#logo').should('not.exist');
         });
+
+        it('does not display CV header', () => {
+            cy.get('#cv-header').should('not.exist');
+        });
     });
-        
-    describe('back to My Portfolio/Hello tab and it', () => {
+      
+    describe('to CV tab and it', () => {
+        beforeEach(() => {
+            cy.get('#cv-tab').click();
+        });
+
+        it('displays CV header', () => {
+            cy.get('#cv-header').should('contain', 'CV');
+        });
+
+        it('displays component name in url', () => {
+            cy.url().should('contain', 'cv');
+        });
+
+        it('does not display About Me header', () => {
+            cy.get('#about-header').should('not.exist');
+        });
+
+        it('does not display My Projects header', () => {
+            cy.get('#projects-header').should('not.exist');
+        });
+
+        it('does not display logo', () => {
+            cy.get('#logo').should('not.exist');
+        });
+    });
+
+    describe('back to My Portfolio/Logo tab and it', () => {
         beforeEach(() => {
             cy.get('#about-tab').click();
             cy.get('#header').click();
@@ -60,7 +94,8 @@ describe('User can navigate the app', () => {
         it('displays correct url', () => {
             cy.url()
             .should('not.contain', 'projects')
-            .and('not.contain', 'about');
+            .and('not.contain', 'about')
+            .and('not.contain', 'cv');
         });
 
         it('does not display About Me header', () => {
@@ -70,5 +105,9 @@ describe('User can navigate the app', () => {
         it('does not display My Projects header', () => {
             cy.get('#projects-header').should('not.exist');
         });
-    });
+
+        it('does not display CV header', () => {
+            cy.get('#cv-header').should('not.exist');
+        });
+    });    
 });
