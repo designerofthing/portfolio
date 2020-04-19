@@ -2,13 +2,17 @@
     {
       "id": 1,
       "name": "Education",
-      "image": ""
-      
+      "image": "./src/images/craftacademylogo.jpg" 
     },
     {
       "id": 2,
       "name": "Work History",
-      "image": ""
+      "image": "./src/images/Sheraton.png"
+    },
+    {
+      "id": 3,
+      "name": "Skills",
+      "image": "./src/images/react.png"
     }
     
   ]

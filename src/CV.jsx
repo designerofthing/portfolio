@@ -5,14 +5,14 @@ import { UndrawResumeFolder } from 'react-undraw-illustrations';
 
 class CV extends Component {
     state = {
-        projects: []
+        cv: []
     };
 
     componentDidMount() {
         axios.get('./src/data/cv.json')
         .then(response => {
             this.setState({
-                cv: response.data
+                    cv: response.data
             })
         })
     }
@@ -43,7 +43,7 @@ class CV extends Component {
                         </p>
                     </div>
                 </div>            
-                <div className="ui stackable two column grid">{cvList}</div>
+                <div className="ui stackable three column grid">{cvList}</div>
             </div>
         );
     }
