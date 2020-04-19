@@ -3,9 +3,9 @@ footer {
     bottom: 0;
     width: 100%;
     height: 60px;
-    padding-top: 20px;
+    padding-top: 15px;
     padding-bottom: 20px;
-    background-color: #dfddc7;
+    background-color: #a7a48e;
     color: #5b97ac;
     margin-top: 0;
     margin-bottom: 0;
@@ -18,6 +18,9 @@ body{
 .main.container {
    padding-top: 50px;
     margin-top: 3em;
+}
+.header.item {
+    border: none;
 }
 
 .stackable.two.column.grid{
@@ -66,10 +69,10 @@ body{
 }
   
 .ui.fixed.inverted.menu {
-    background-color: #6393a4;  
+    background-color: #5b97ac;  
 }
 
 .ui.inverted.menu .item {
-    color: #dfddc7;  
+    color:black;  
     font-weight: bolder;
 }

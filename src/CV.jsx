@@ -37,17 +37,7 @@ class CV extends Component {
     
         return(
             <div className='ui main container'>
-                <div className="ui stackable two column grid">
-                    <div class="column">
-                        <UndrawResumeFolder primaryColor='#5b97ac' height='200px' />
-                    </div>
-                    <div class="column">
-                        <h1 id='cv-header' className='ui header'>CV</h1>
-                        <p>
-                        
-                        </p>
-                    </div>
-                </div>            
+                
                 <div className="ui stackable three column grid" >{cvList}</div>
             </div>
         );
