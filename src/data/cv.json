@@ -1,18 +1,44 @@
 [
     {
-      "id": 1,
-      "name": "Education",
-      "image": "./src/images/craftacademylogo.jpg" 
+      "id": 1, 
+      "title": "Education",
+      "name": "Craft Academy",
+      "image": "./src/images/craftacademylogo.jpg", 
+      "description": "Full Stack Developer Boot Camp 2020"
+      
     },
     {
       "id": 2,
-      "name": "Work History",
-      "image": "./src/images/Sheraton.png"
+      "title": "Work History",
+      "name": "Sheraton Stockholm Hotel",
+      "image": "./src/images/Sheraton.png",
+      "description": "Head Concierge 2013 - 2020"
     },
     {
       "id": 3,
-      "name": "Skills",
-      "image": "./src/images/react.png"
+      "title": "Skills",
+      "name": "Front End development",
+      "image": "./src/images/frontend.jpg",
+      "description": ""
+    },
+    {
+      "id": 4,
+      "name": "QUT",
+      "image": "./src/images/qut-logo.jpg", 
+      "description": "Bachelor of the Built Enviroment (Industrial Design) 1994-1998"
+
+    },
+    {
+      "id": 5,
+      "name": "Steve Watson Design Studio",
+      "image": "./src/images/skase1b.jpg",
+      "description": "Designer/Director 2005 - 2012"
+    },
+    {
+      "name": "Back End Development",
+      "image": "./src/images/backend.jpg",
+      "description": ""
     }
+    
     
   ]

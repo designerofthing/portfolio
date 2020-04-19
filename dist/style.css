@@ -45,6 +45,14 @@ body{
     font-size: 20px;
     font-family: 'Lexend Giga', sans-serif;
 }
+.cv.header {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lexend Giga', sans-serif;
+}
+.cv.item.header {
+    padding-top: 5px;
+}
 
 #logo{
     padding-top: 20px;

@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
 import axios from "axios";
 import CvCard from "./CvCard";
+import Education from "./Education";
+import WorkHistory from "./WorkHistory";
+import Skills from "./Skills";
 import { UndrawResumeFolder } from 'react-undraw-illustrations';
+import { Link } from "react-router-dom";
+
 
 class CV extends Component {
     state = {
@@ -39,11 +44,11 @@ class CV extends Component {
                     <div class="column">
                         <h1 id='cv-header' className='ui header'>CV</h1>
                         <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum, nulla nec faucibus lobortis, sapien leo viverra dui, ac imperdiet justo tellus nec odio. In at porta mauris. Phasellus ac posuere lectus. Phasellus commodo dui vel gravida tristique. Ut eleifend mauris odio, at scelerisque arcu hendrerit non. Morbi nec eros sed urna iaculis aliquam a maximus turpis. Nunc consequat, sem eu convallis varius, felis eros ultricies elit, non pulvinar enim quam nec nisl. Curabitur id egestas risus. Aliquam erat volutpat.
+                        
                         </p>
                     </div>
                 </div>            
-                <div className="ui stackable three column grid">{cvList}</div>
+                <div className="ui stackable three column grid" >{cvList}</div>
             </div>
         );
     }
