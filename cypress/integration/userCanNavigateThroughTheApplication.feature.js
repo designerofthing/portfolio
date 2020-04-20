@@ -61,7 +61,7 @@ describe('User can navigate the app', () => {
         });
 
         it('displays CV header', () => {
-            cy.get('#cv-header').should('contain', 'CV');
+            cy.get('#cv-header').should('contain', 'Curriculum Vitae');
         });
 
         it('displays component name in url', () => {

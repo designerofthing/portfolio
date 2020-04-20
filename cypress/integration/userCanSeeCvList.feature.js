@@ -7,8 +7,7 @@ describe('User can see CV items', () => {
     it('displays CV item', () => {
         cy.get('#cvItem-1').within(() => {
         cy.get(('.image')).should('exist');
-        cy.get('.ui.header').should('contain', 'Education');
-        cy.get('#cvItem.education').click();    
+        cy.get('.cv.header').should('contain', 'Education');
         })
     })
 
@@ -16,15 +15,13 @@ describe('User can see CV items', () => {
     it('displays CV item', () => {
         cy.get('#cvItem-2').within(() => {
         cy.get(('.image')).should('exist');
-        cy.get('.ui.header').should('contain', 'Work History');
-        cy.get('#work.history').click();       
+        cy.get('.cv.header').should('contain', 'Work History');
         })
     });
     it('displays CV item', () => {
         cy.get('#cvItem-3').within(() => {
         cy.get(('.image')).should('exist');
-        cy.get('.ui.header').should('contain', 'Skills');
-        cy.get('#skills').click();       
+        cy.get('.cv.header').should('contain', 'Skills');
         })
     });
 });

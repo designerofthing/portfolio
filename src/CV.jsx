@@ -37,6 +37,7 @@ class CV extends Component {
     
         return(
             <div className='ui main container'>
+                 <h1 id='cv-header' className='ui header'>Curriculum Vitae</h1>
                 
                 <div className="ui stackable three column grid" >{cvList}</div>
             </div>
